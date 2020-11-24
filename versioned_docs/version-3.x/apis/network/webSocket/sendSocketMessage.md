@@ -58,7 +58,7 @@ sidebar_label: sendSocketMessage
 
 ```tsx
 let socketOpen = false
-const socketMsgQueue = []
+let socketMsgQueue = []
 Taro.connectSocket({
   url: 'test.php'
 })
